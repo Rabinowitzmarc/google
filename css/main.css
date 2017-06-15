@@ -166,3 +166,38 @@ a.button:hover {
 	letter-spacing: 0.1px;
 	font-size: 14px;
 }
+
+@media (max-width:523px) {
+	.right-site-links {
+		position: absolute;
+		top: 40px;
+		padding: 0;
+
+
+	}
+
+	.right-site-links li:first-child {
+		margin-left: 20px;
+	}
+
+	.bottom-site-links {
+		height: 100px;
+	}
+
+
+	.left-site-links li a {
+		margin-right: 0;
+	}
+}
+
+@media (max-width:613px) {
+		.search-box input {
+			width: 70%;
+		}
+	}
+
+@media (max-width:424px) {
+	.top-navigation img {
+		display: none;
+	}
+}
